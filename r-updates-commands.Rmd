@@ -1,0 +1,31 @@
+---
+title: "R Notebook - update R"
+output:
+  html_document:
+    df_print: paged
+---
+
+
+```{r}
+
+# install.packages("installr")
+library(installr)
+
+updateR()
+
+```
+
+```{r}
+# git setup
+
+# install.packages("usethis")
+library(usethis)
+
+# can set git config in R, with below --  or using git bash (preferred)
+# use_git_config(user.name="winstonsieck", user.email="sieck@globalcognition.org")
+
+use_git()
+
+
+```
+
