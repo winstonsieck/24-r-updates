@@ -16,15 +16,32 @@ updateR()
 ```
 
 ```{r}
-# git setup
+### git setup - use these commands in the console
 
 # install.packages("usethis")
-library(usethis)
 
-# can set git config in R, with below --  or using git bash (preferred)
+## can set git config in R, with below --  or using git bash (preferred)
+# library(usethis)
 # use_git_config(user.name="winstonsieck", user.email="sieck@globalcognition.org")
 
-use_git()
+## setup git with an existing project
+# library(usethis)
+# use_git()
+
+## Create a Personal Access Token (PAT) on GitHub
+# library(usethis)
+# create_github_token()
+
+## Connect RStudio and GitHub
+# library(gitcreds)
+# gitcreds_set()
+#-- paste in token acquired above
+
+## Connect an existing RStudio Project with a GitHub Repo
+# library(usethis)
+# use_github()
+
+
 
 
 ```
