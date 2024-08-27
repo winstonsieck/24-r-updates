@@ -1,2 +1,6 @@
 developed in experimental branch
+<<<<<<< HEAD
 add a keeper line in master branch
+=======
+add buggy line in bug_qa branch
+>>>>>>> bug_qa
